@@ -109,7 +109,7 @@ const getWeatherData =  async () => {
         // dynamicaly change data 
         cityName.innerHTML = name;
         Datetime.innerHTML = getDateTime(time);
-        w_temp.innerHTML = `${temperatureApparentAvg}&#176`;
+        w_temp.innerHTML = `${temperatureApparentAvg.toFixed()}&#176`;
         w_min.innerHTML = `Min: ${temperatureMin.toFixed()}&#176`;
         w_max.innerHTML = `Max: ${temperatureMax.toFixed()}&#176`;
 
