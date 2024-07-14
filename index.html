@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container" >
+        <!-- Header Section // Search Bar -->
+        <div class="weather_header">
+            <form class="weather_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="city_name" placeholder="Search your city..."><br>
+            </form>
+        </div>
+        <!-- Main body Section // Main Data -->
+        <div class="weather_body">
+            <h1 class="weather_city"></h1>
+            <p class="weather_date_time"></p>
+            <div class="weather_data">
+                <p class="weather_forecast">Cloudy</p>
+                <div class="weather_icon"><i class="fa-solid fa-cloud fa-2xl"></i></i></div>
+            </div>
+            <p class="weather_temp"></p>
+            <div class="weather_minmax">
+                <p class="weather_min"></p>
+                <p class="weather_max"></p>
+            </div>
+        </div>
+        <!-- Footer Section // More Data show in this section  -->
+         <section class="weather_info">
+            <div class="weather_card">
+                <i class="fa-solid fa-eye-slash"></i>
+                <div>
+                    <p>Visibility</p>
+                    <p class="weather_visibility"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humadity</p>
+                    <p class="weather_humadity"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind</p>
+                    <p class="weather_wind"></p>
+                </div>
+            </div>
+            
+            <div class="weather_card">
+                <i class="fa-solid fa-snowflake"></i>
+                <div>
+                    <p>Precipitation</p>
+                    <p class="weather_precipitation"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fas fa-sun"></i>
+                <div>
+                    <p>Sunrise</p>
+                    <p class="weather_sunrise"></p>
+                </div>
+            </div>
+
+            <div class="weather_card">
+                <i class="fas fa-moon"></i>
+                <div>
+                    <p>Sunset</p>
+                    <p class="weather_sunset"></p>
+                </div>
+            </div>
+
+         </section>
+
+
+    </section>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
